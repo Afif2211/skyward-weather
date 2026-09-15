@@ -27,7 +27,6 @@ const Weather = () => {
       <WeatherScene key={currentCondition} condition={currentCondition} />
 
       <div className="weather-header">
-        <p className="weather-app-name">Skyward</p>
         <p className="weather-brand">Built by <strong>Afif Ahmad</strong></p>
       </div>
 
@@ -68,19 +67,6 @@ const Weather = () => {
             </div>
           </div>
         )}
-      </div>
-
-      <div className="weather-about">
-        <p>
-          This app fetches live weather data through a reusable <code>useFetch</code>{" "}
-          custom hook that wraps <code>useState</code> and <code>useEffect</code>,
-          returning loading and data states to any component that needs them. The
-          background scene reacts to the actual weather condition returned by the
-          API — clear skies render a glowing sun, cloudy conditions render drifting
-          cloud shapes, and rain or snow render falling particles — all built with
-          Three.js and synced to React state via a <code>key</code> prop that forces
-          a clean rebuild whenever the condition changes.
-        </p>
       </div>
 
       <div className="weather-footer">
