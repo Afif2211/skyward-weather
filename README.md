@@ -3,7 +3,7 @@
 A weather lookup app with a reactive 3D background — the scene changes to match the actual weather condition returned by the API (sun, clouds, rain, or snow).
 
 ## Live Demo
-[Add your Vercel link here once deployed]
+https://skyward-weather-sepia.vercel.app/
 
 ## Features
 - Search any city for current temperature, condition, humidity, and wind
